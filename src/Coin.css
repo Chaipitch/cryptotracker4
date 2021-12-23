@@ -1,0 +1,133 @@
+.coin h1 {
+  font-size: 16px;
+  width: 150px;
+  text-align: center;
+  margin-left: 20%;
+}
+
+.coin img {
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+  margin-left: 30%;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.coin-symbol {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.coin-price {
+  margin-top: 10px;
+  width: 110px;
+  text-align: center;
+  margin-left: 27%;
+}
+
+.coin-vol {
+  margin-top: 10px;
+  width: 200px;
+  text-align: center;
+  margin-left: 8%;
+}
+
+.coin-marketcap {
+  margin-top: 10px;
+  width: 240px;
+  text-align: center;
+}
+
+.coin-percent {
+  margin-top: 10px;
+  width: 80px;
+  text-align: center;
+  margin-left: 33%;
+}
+*/ .red {
+  color: #f00606;
+}
+
+.green {
+  color: #11d811;
+}
+
+@media (min-width: 775px) {
+  .coin-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .coin-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 900px;
+  }
+
+  .coin {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+  }
+
+  .coin h1 {
+    font-size: 16px;
+    width: 150px;
+    text-align: left;
+    margin-left: 0%;
+  }
+
+  .coin img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    margin-left: 0%;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+  }
+
+  .coin-symbol {
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 0px;
+  }
+
+  .coin-data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .coin-price {
+    margin-top: 30px;
+    width: 110px;
+    text-align: left;
+    margin-left: 0%;
+  }
+
+  .coin-vol {
+    margin-top: 30px;
+    width: 200px;
+  }
+
+  .coin-marketcap {
+    margin-top: 30px;
+    width: 240px;
+    text-align: left;
+  }
+
+  .coin-percent {
+    margin-top: 30px;
+    width: 80px;
+    text-align: left;
+    margin-left: 0%;
+  }
+}
