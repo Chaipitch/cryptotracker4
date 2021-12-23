@@ -26,4 +26,4 @@ const coin = ({image, name, symbol, price, volume, priceChange,marketcap}) => {
     )
 }
 
-export default coin
+export default coin;
